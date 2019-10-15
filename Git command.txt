@@ -1,0 +1,65 @@
+******* THIS METHOD IS TO MAKE SOMETHING ON GITHUB TO TAKE IT CHANGE IT AND THEN PUSH IT TO GITHUB
+
+git init (in ru folder)
+git clone "Url of the repository"
+ls "go to the folder of the repository created in ur pc"
+change the files
+git status
+git commit -a -m "message"
+git -log -n (show the n latest commit)
+git push origin master
+
+
+******* TURN A PROJET FILE INTO A GIT REPOSITORY AND THEN PUSH IT TO GITHUB
+
+git init (in ru folder)
+git add <ur files> or . (all)
+git commit -m "message"
+//create ur repository in github
+git remote add origin "URL of ur repository"
+git remote -v (to check)
+git push origin master 
+
+
+
+
+
+******** COMMAND
+$ git add .
+# Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
+
+$ git pull origin master
+#to pull the changes that happened in github
+
+$ git branch
+#show the diffenrent branch
+
+$ git diff
+#show the changes that had been modified (before git add .)
+
+$ git commit --amend -m "message"
+# change only the last message
+
+$git commit --amend
+# add files that had been changed to the last commit without adding a new commit
+
+$git log --stat
+# show more details about the commit (files...)
+
+$git mv <file_name> <new_file_name>
+# to rename a file
+
+$git mv <file_name> FOLDER/<new_file_name>
+# to rename and move a file
+
+$git reset --soft "CommitID"
+# go back to the commitID and have the changes in the staging area
+
+$git reset "CommitID"
+# go back to the commitID but the changes aren't already added to the stages
+
+$git reset --hard "CommitID"
+# go back to the commitID and the changes are removed
+
+link to nice video
+https://www.youtube.com/watch?v=FdZecVxzJbk&t=419s
