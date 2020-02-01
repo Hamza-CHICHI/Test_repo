@@ -34,6 +34,9 @@ $ git pull origin master
 $ git branch
 #show the diffenrent branch
 
+$ git remote -v update
+#show if your local branch is up to date with origin ( so you don't need a pull)
+
 $ git diff
 #show the changes that had been modified (before git add .)
 
